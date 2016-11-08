@@ -1,0 +1,11 @@
+# Created by .ignore support plugin (hsz.mobi)
+
+*.pyc
+.idea/
+Include/
+Lib/
+Scripts/
+/ll_venv/
+
+*.sqlite3
+
