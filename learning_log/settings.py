@@ -58,8 +58,7 @@ ROOT_URLCONF = 'learning_log.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR, 'learning_logs/templates')]
-        ,
+        'DIRS': [os.path.join(BASE_DIR, 'learning_log/templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -145,7 +144,7 @@ if os.getcwd() == '/app':
     # cabeçalhos para permitir todos os hosts
     ALLOWED_HOSTS = ['learning-log-to.herokuapp.com']
 
-    DEBUG=False
+    DEBUG = False
 
     # configuracao de recursos estáticos
     BASE_DIR = os.path.dirname(os.path.abspath(__file__))
